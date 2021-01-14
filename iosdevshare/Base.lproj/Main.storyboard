@@ -15,8 +15,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jp4-Nb-YnD">
-                                <rect key="frame" x="186" y="437.5" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="0.90000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="Jp4-Nb-YnD">
+                                <rect key="frame" x="20" y="398" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="s3J-gF-tse"/>
+                                </constraints>
+                                <string key="text">Labelsdjaskjdkajskdjsajkldjalskjdlksajlk djlkasjdkljsakljdasj jdsaljdiieh ashdhsao hdwhweouheowqhuohwou houhw oquehouqwh ouehouwqheh ouwheh wqoehqhweouhwoheou hwqo</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -25,6 +29,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Jp4-Nb-YnD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Kk-7u-RIG"/>
+                            <constraint firstAttribute="trailing" secondItem="Jp4-Nb-YnD" secondAttribute="trailing" constant="20" id="R4P-oX-5XF"/>
+                            <constraint firstItem="Jp4-Nb-YnD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="T4U-ah-kan"/>
                             <constraint firstItem="Jp4-Nb-YnD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ula-Ra-xDJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

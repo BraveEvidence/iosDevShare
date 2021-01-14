@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        print(UserDefaults.standard.string(forKey: "incomingURL"))
         name.text = "Hi there"
          setupNotification()
     }
@@ -39,9 +40,10 @@ class ViewController: UIViewController {
     }
 
     @objc func setUrl() {
-        if let incomingURL = UserDefaults(suiteName: "group.ShareExtension101")?.value(forKey: "incomingURL") as? String {
+        if let incomingURL = UserDefaults(suiteName: "group.ShareExtension102")?.value(forKey: "incomingURL") as? String {
             name.text = incomingURL
-            UserDefaults(suiteName: "group.ShareExtension101")?.removeObject(forKey: "incomingURL")
+            print(incomingURL)
+            UserDefaults(suiteName: "group.ShareExtension102")?.removeObject(forKey: "incomingURL")
         }
     }
 
